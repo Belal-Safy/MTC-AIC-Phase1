@@ -1,6 +1,6 @@
 # Egyptian ASR Transformer
 ## Table of contents
-1. [Project Overview](#Project Overview)
+1. [Project Overview](#Project-Overview)
 
 2. Features
 
