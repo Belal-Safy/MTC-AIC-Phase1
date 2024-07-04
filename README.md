@@ -2,15 +2,18 @@
 ## Table of contents
 1. [Project Overview](#Project-Overview)
 
-2. Features
+2. [Features](#Features)
 
-3. Dataset
+3. [Dataset](#Dataset)
 
-4. Preprocessing
-    - Audio Cleaning
-    - Spectrogram Extraction
-
-5. Model Architecture
+4. [Preprocessing](#Preprocessing)
+    - [Audio Cleaning](#Audio-Cleaning)
+    - [Spectrogram Extraction](#Spectrogram-Extraction)
+      
+5. [Model Architecture](#Model-Architecture)
+    - [Transformer Model](#Transformer-Model)
+6. [Training](#Training)
+7. [Evaluation](#Evaluation)
 
 ## Project Overview
 This repository contains the code and resources for a Transformer-based Automatic Speech Recognition (ASR) system tailored for the Egyptian dialect of Arabic. The system is designed to handle a dataset of 100 hours of audio recordings, employing advanced preprocessing techniques and a state-of-the-art Transformer architecture to achieve high accuracy in transcription.
