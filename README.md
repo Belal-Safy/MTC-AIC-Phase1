@@ -14,6 +14,7 @@
     - [Transformer Model](#Transformer-Model)
 6. [Training](#Training)
 7. [Evaluation](#Evaluation)
+8. [Usage](#Usage)
 
 ## Project Overview
 This repository contains the code and resources for a Transformer-based Automatic Speech Recognition (ASR) system tailored for the Egyptian dialect of Arabic. The system is designed to handle a dataset of 100 hours of audio recordings, employing advanced preprocessing techniques and a state-of-the-art Transformer architecture to achieve high accuracy in transcription.
@@ -69,3 +70,8 @@ Training the model involves:
 The model's performance is evaluated using:
 
 - **Word Error Rate (WER)**: Measures the accuracy of transcriptions by comparing them to the ground truth.
+
+## Usage
+### Training Notebook
+
+You can find the training notebook in `Fianl Notebook.ipynb` with a detailed code provided.
