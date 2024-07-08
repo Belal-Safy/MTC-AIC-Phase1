@@ -11,6 +11,7 @@ import os
 import warnings
 
 os.environ["KERAS_BACKEND"] = "tensorflow"
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 warnings.filterwarnings("ignore")
 
 all_chars = [
@@ -560,4 +561,4 @@ concated_pd
 
 concated_pd.to_csv(output_file_path)
 
-print("Output saved to", output_file_path)
+print("Output saved to: ", output_file_path)
